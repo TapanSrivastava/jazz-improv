@@ -1,9 +1,9 @@
 //
 //  AppDelegate.h
-//  Chord Analyzer
+//  Music App
 //
-//  Created by Tapan Srivastava on 9/20/15.
-//  Copyright © 2015 Tapan Srivastava. All rights reserved.
+//  Created by Tapan Srivastava on 7/26/14.
+//  Copyright (c) 2014 Tapan Srivastava. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

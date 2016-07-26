@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF356D9E1C77D5AA003A39A2 /* Chord.m in Sources */ = {isa = PBXBuildFile; fileRef = FF356D9D1C77D5AA003A39A2 /* Chord.m */; };
+		FF356DAC1C7834BD003A39A2 /* ChordList.m in Sources */ = {isa = PBXBuildFile; fileRef = FF356DAB1C7834BD003A39A2 /* ChordList.m */; };
+		FF9092CD1C7903BB0028C0AB /* ScalesToNotes.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9092CC1C7903BB0028C0AB /* ScalesToNotes.m */; };
+		FFA0486E1C87800B0094649F /* DisplayNotes.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA0486D1C87800B0094649F /* DisplayNotes.m */; };
 		FFDDE0CA1BAF6C1D00A8C710 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDDE0C91BAF6C1D00A8C710 /* main.m */; };
 		FFDDE0CD1BAF6C1D00A8C710 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDDE0CC1BAF6C1D00A8C710 /* AppDelegate.m */; };
-		FFDDE0D01BAF6C1D00A8C710 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDDE0CF1BAF6C1D00A8C710 /* ViewController.m */; };
-		FFDDE0D31BAF6C1D00A8C710 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFDDE0D11BAF6C1D00A8C710 /* Main.storyboard */; };
 		FFDDE0D51BAF6C1D00A8C710 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFDDE0D41BAF6C1D00A8C710 /* Assets.xcassets */; };
-		FFDDE0D81BAF6C1D00A8C710 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFDDE0D61BAF6C1D00A8C710 /* LaunchScreen.storyboard */; };
 		FFDDE0E31BAF6C1D00A8C710 /* Chord_AnalyzerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDDE0E21BAF6C1D00A8C710 /* Chord_AnalyzerTests.m */; };
 		FFDDE0EE1BAF6C1D00A8C710 /* Chord_AnalyzerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDDE0ED1BAF6C1D00A8C710 /* Chord_AnalyzerUITests.m */; };
+		FFDDE0FC1BAF6DF400A8C710 /* mainstoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFDDE0FB1BAF6DF400A8C710 /* mainstoryboard.storyboard */; };
+		FFDDE0FE1BAF6E4100A8C710 /* ChordAnalyzerLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFDDE0FD1BAF6E4100A8C710 /* ChordAnalyzerLaunchScreen.storyboard */; };
+		FFDDE1021BAF6E9000A8C710 /* ChordToScale.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDDE1011BAF6E9000A8C710 /* ChordToScale.m */; };
+		FFDDE1061BAF6EB100A8C710 /* InputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDDE1051BAF6EB100A8C710 /* InputViewController.m */; };
+		FFDDE10A1BAF6EE000A8C710 /* DisplayAnalyzedChords.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDDE1091BAF6EE000A8C710 /* DisplayAnalyzedChords.m */; };
+		FFDDE10E1BAF6EFA00A8C710 /* DisplayScales.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDDE10D1BAF6EFA00A8C710 /* DisplayScales.m */; };
+		FFDDE1141BAF6F3F00A8C710 /* SaveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDDE1131BAF6F3F00A8C710 /* SaveViewController.m */; };
+		FFDDE1181BAF6F7800A8C710 /* ProjectDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDDE1171BAF6F7800A8C710 /* ProjectDisplay.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,15 +44,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FF356D9C1C77D5AA003A39A2 /* Chord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chord.h; sourceTree = "<group>"; };
+		FF356D9D1C77D5AA003A39A2 /* Chord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chord.m; sourceTree = "<group>"; };
+		FF356DAA1C7834BD003A39A2 /* ChordList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChordList.h; sourceTree = "<group>"; };
+		FF356DAB1C7834BD003A39A2 /* ChordList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChordList.m; sourceTree = "<group>"; };
+		FF9092CB1C7903BB0028C0AB /* ScalesToNotes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScalesToNotes.h; sourceTree = "<group>"; };
+		FF9092CC1C7903BB0028C0AB /* ScalesToNotes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScalesToNotes.m; sourceTree = "<group>"; };
+		FFA0486C1C87800B0094649F /* DisplayNotes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayNotes.h; sourceTree = "<group>"; };
+		FFA0486D1C87800B0094649F /* DisplayNotes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayNotes.m; sourceTree = "<group>"; };
 		FFDDE0C51BAF6C1D00A8C710 /* Chord Analyzer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chord Analyzer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFDDE0C91BAF6C1D00A8C710 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FFDDE0CB1BAF6C1D00A8C710 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FFDDE0CC1BAF6C1D00A8C710 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FFDDE0CE1BAF6C1D00A8C710 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FFDDE0CF1BAF6C1D00A8C710 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		FFDDE0D21BAF6C1D00A8C710 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FFDDE0D41BAF6C1D00A8C710 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FFDDE0D71BAF6C1D00A8C710 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FFDDE0D91BAF6C1D00A8C710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FFDDE0DE1BAF6C1D00A8C710 /* Chord AnalyzerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chord AnalyzerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFDDE0E21BAF6C1D00A8C710 /* Chord_AnalyzerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Chord_AnalyzerTests.m; sourceTree = "<group>"; };
@@ -51,6 +64,20 @@
 		FFDDE0E91BAF6C1D00A8C710 /* Chord AnalyzerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chord AnalyzerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFDDE0ED1BAF6C1D00A8C710 /* Chord_AnalyzerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Chord_AnalyzerUITests.m; sourceTree = "<group>"; };
 		FFDDE0EF1BAF6C1D00A8C710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFDDE0FB1BAF6DF400A8C710 /* mainstoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = mainstoryboard.storyboard; sourceTree = "<group>"; };
+		FFDDE0FD1BAF6E4100A8C710 /* ChordAnalyzerLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ChordAnalyzerLaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFDDE1001BAF6E9000A8C710 /* ChordToScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChordToScale.h; sourceTree = "<group>"; };
+		FFDDE1011BAF6E9000A8C710 /* ChordToScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChordToScale.m; sourceTree = "<group>"; };
+		FFDDE1041BAF6EB100A8C710 /* InputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputViewController.h; sourceTree = "<group>"; };
+		FFDDE1051BAF6EB100A8C710 /* InputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputViewController.m; sourceTree = "<group>"; };
+		FFDDE1081BAF6EE000A8C710 /* DisplayAnalyzedChords.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayAnalyzedChords.h; sourceTree = "<group>"; };
+		FFDDE1091BAF6EE000A8C710 /* DisplayAnalyzedChords.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayAnalyzedChords.m; sourceTree = "<group>"; };
+		FFDDE10C1BAF6EFA00A8C710 /* DisplayScales.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayScales.h; sourceTree = "<group>"; };
+		FFDDE10D1BAF6EFA00A8C710 /* DisplayScales.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayScales.m; sourceTree = "<group>"; };
+		FFDDE1121BAF6F3F00A8C710 /* SaveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaveViewController.h; sourceTree = "<group>"; };
+		FFDDE1131BAF6F3F00A8C710 /* SaveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaveViewController.m; sourceTree = "<group>"; };
+		FFDDE1161BAF6F7800A8C710 /* ProjectDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectDisplay.h; sourceTree = "<group>"; };
+		FFDDE1171BAF6F7800A8C710 /* ProjectDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectDisplay.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +105,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FF356D9F1C77D5B8003A39A2 /* Chord */ = {
+			isa = PBXGroup;
+			children = (
+				FF356D9C1C77D5AA003A39A2 /* Chord.h */,
+				FF356D9D1C77D5AA003A39A2 /* Chord.m */,
+			);
+			name = Chord;
+			sourceTree = "<group>";
+		};
+		FF356DA91C78349E003A39A2 /* ChordList */ = {
+			isa = PBXGroup;
+			children = (
+				FF356DAA1C7834BD003A39A2 /* ChordList.h */,
+				FF356DAB1C7834BD003A39A2 /* ChordList.m */,
+			);
+			name = ChordList;
+			sourceTree = "<group>";
+		};
+		FF9092CA1C7903370028C0AB /* ScaleToNotes */ = {
+			isa = PBXGroup;
+			children = (
+				FF9092CB1C7903BB0028C0AB /* ScalesToNotes.h */,
+				FF9092CC1C7903BB0028C0AB /* ScalesToNotes.m */,
+			);
+			name = ScaleToNotes;
+			sourceTree = "<group>";
+		};
+		FFA048621C877F800094649F /* Display Notes */ = {
+			isa = PBXGroup;
+			children = (
+				FFA0486C1C87800B0094649F /* DisplayNotes.h */,
+				FFA0486D1C87800B0094649F /* DisplayNotes.m */,
+			);
+			name = "Display Notes";
+			sourceTree = "<group>";
+		};
 		FFDDE0BC1BAF6C1D00A8C710 = {
 			isa = PBXGroup;
 			children = (
@@ -101,13 +164,12 @@
 		FFDDE0C71BAF6C1D00A8C710 /* Chord Analyzer */ = {
 			isa = PBXGroup;
 			children = (
-				FFDDE0CB1BAF6C1D00A8C710 /* AppDelegate.h */,
-				FFDDE0CC1BAF6C1D00A8C710 /* AppDelegate.m */,
-				FFDDE0CE1BAF6C1D00A8C710 /* ViewController.h */,
-				FFDDE0CF1BAF6C1D00A8C710 /* ViewController.m */,
-				FFDDE0D11BAF6C1D00A8C710 /* Main.storyboard */,
+				FFA048621C877F800094649F /* Display Notes */,
+				FF9092CA1C7903370028C0AB /* ScaleToNotes */,
+				FFDDE1151BAF6F6B00A8C710 /* Projects */,
+				FFDDE1101BAF6F1600A8C710 /* Delegate/Storyboards */,
+				FFDDE10F1BAF6EFE00A8C710 /* Input */,
 				FFDDE0D41BAF6C1D00A8C710 /* Assets.xcassets */,
-				FFDDE0D61BAF6C1D00A8C710 /* LaunchScreen.storyboard */,
 				FFDDE0D91BAF6C1D00A8C710 /* Info.plist */,
 				FFDDE0C81BAF6C1D00A8C710 /* Supporting Files */,
 			);
@@ -138,6 +200,85 @@
 				FFDDE0EF1BAF6C1D00A8C710 /* Info.plist */,
 			);
 			path = "Chord AnalyzerUITests";
+			sourceTree = "<group>";
+		};
+		FFDDE0FF1BAF6E7200A8C710 /* ChordToScale */ = {
+			isa = PBXGroup;
+			children = (
+				FFDDE1001BAF6E9000A8C710 /* ChordToScale.h */,
+				FFDDE1011BAF6E9000A8C710 /* ChordToScale.m */,
+			);
+			name = ChordToScale;
+			sourceTree = "<group>";
+		};
+		FFDDE1031BAF6E9C00A8C710 /* InputViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FFDDE1041BAF6EB100A8C710 /* InputViewController.h */,
+				FFDDE1051BAF6EB100A8C710 /* InputViewController.m */,
+			);
+			name = InputViewController;
+			sourceTree = "<group>";
+		};
+		FFDDE1071BAF6ED000A8C710 /* DisplayAnalyzedChords */ = {
+			isa = PBXGroup;
+			children = (
+				FFDDE1081BAF6EE000A8C710 /* DisplayAnalyzedChords.h */,
+				FFDDE1091BAF6EE000A8C710 /* DisplayAnalyzedChords.m */,
+			);
+			name = DisplayAnalyzedChords;
+			sourceTree = "<group>";
+		};
+		FFDDE10B1BAF6EEA00A8C710 /* DisplayScales */ = {
+			isa = PBXGroup;
+			children = (
+				FFDDE10C1BAF6EFA00A8C710 /* DisplayScales.h */,
+				FFDDE10D1BAF6EFA00A8C710 /* DisplayScales.m */,
+			);
+			name = DisplayScales;
+			sourceTree = "<group>";
+		};
+		FFDDE10F1BAF6EFE00A8C710 /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				FF356DA91C78349E003A39A2 /* ChordList */,
+				FF356D9F1C77D5B8003A39A2 /* Chord */,
+				FFDDE1111BAF6F3300A8C710 /* SaveViewController */,
+				FFDDE10B1BAF6EEA00A8C710 /* DisplayScales */,
+				FFDDE1071BAF6ED000A8C710 /* DisplayAnalyzedChords */,
+				FFDDE1031BAF6E9C00A8C710 /* InputViewController */,
+				FFDDE0FF1BAF6E7200A8C710 /* ChordToScale */,
+			);
+			name = Input;
+			sourceTree = "<group>";
+		};
+		FFDDE1101BAF6F1600A8C710 /* Delegate/Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FFDDE0FD1BAF6E4100A8C710 /* ChordAnalyzerLaunchScreen.storyboard */,
+				FFDDE0FB1BAF6DF400A8C710 /* mainstoryboard.storyboard */,
+				FFDDE0CB1BAF6C1D00A8C710 /* AppDelegate.h */,
+				FFDDE0CC1BAF6C1D00A8C710 /* AppDelegate.m */,
+			);
+			name = Delegate/Storyboards;
+			sourceTree = "<group>";
+		};
+		FFDDE1111BAF6F3300A8C710 /* SaveViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FFDDE1121BAF6F3F00A8C710 /* SaveViewController.h */,
+				FFDDE1131BAF6F3F00A8C710 /* SaveViewController.m */,
+			);
+			name = SaveViewController;
+			sourceTree = "<group>";
+		};
+		FFDDE1151BAF6F6B00A8C710 /* Projects */ = {
+			isa = PBXGroup;
+			children = (
+				FFDDE1161BAF6F7800A8C710 /* ProjectDisplay.h */,
+				FFDDE1171BAF6F7800A8C710 /* ProjectDisplay.m */,
+			);
+			name = Projects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +348,7 @@
 				TargetAttributes = {
 					FFDDE0C41BAF6C1D00A8C710 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = RY2ZC8PA3X;
 					};
 					FFDDE0DD1BAF6C1D00A8C710 = {
 						CreatedOnToolsVersion = 7.0;
@@ -243,9 +385,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFDDE0D81BAF6C1D00A8C710 /* LaunchScreen.storyboard in Resources */,
+				FFDDE0FE1BAF6E4100A8C710 /* ChordAnalyzerLaunchScreen.storyboard in Resources */,
 				FFDDE0D51BAF6C1D00A8C710 /* Assets.xcassets in Resources */,
-				FFDDE0D31BAF6C1D00A8C710 /* Main.storyboard in Resources */,
+				FFDDE0FC1BAF6DF400A8C710 /* mainstoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +412,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFDDE0D01BAF6C1D00A8C710 /* ViewController.m in Sources */,
+				FF356D9E1C77D5AA003A39A2 /* Chord.m in Sources */,
+				FFDDE1181BAF6F7800A8C710 /* ProjectDisplay.m in Sources */,
 				FFDDE0CD1BAF6C1D00A8C710 /* AppDelegate.m in Sources */,
+				FF9092CD1C7903BB0028C0AB /* ScalesToNotes.m in Sources */,
+				FFA0486E1C87800B0094649F /* DisplayNotes.m in Sources */,
+				FFDDE10E1BAF6EFA00A8C710 /* DisplayScales.m in Sources */,
+				FFDDE10A1BAF6EE000A8C710 /* DisplayAnalyzedChords.m in Sources */,
+				FFDDE1021BAF6E9000A8C710 /* ChordToScale.m in Sources */,
 				FFDDE0CA1BAF6C1D00A8C710 /* main.m in Sources */,
+				FFDDE1061BAF6EB100A8C710 /* InputViewController.m in Sources */,
+				FF356DAC1C7834BD003A39A2 /* ChordList.m in Sources */,
+				FFDDE1141BAF6F3F00A8C710 /* SaveViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,25 +457,6 @@
 			targetProxy = FFDDE0EA1BAF6C1D00A8C710 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		FFDDE0D11BAF6C1D00A8C710 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FFDDE0D21BAF6C1D00A8C710 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FFDDE0D61BAF6C1D00A8C710 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FFDDE0D71BAF6C1D00A8C710 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		FFDDE0F01BAF6C1D00A8C710 /* Debug */ = {
@@ -411,10 +543,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				INFOPLIST_FILE = "Chord Analyzer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tapansrivastava.Chord-Analyzer";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jazz-Improv";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -422,10 +558,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = "Chord Analyzer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tapansrivastava.Chord-Analyzer";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jazz-Improv";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -496,6 +636,7 @@
 				FFDDE0F41BAF6C1D00A8C710 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FFDDE0F51BAF6C1D00A8C710 /* Build configuration list for PBXNativeTarget "Chord AnalyzerTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +645,7 @@
 				FFDDE0F71BAF6C1D00A8C710 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FFDDE0F81BAF6C1D00A8C710 /* Build configuration list for PBXNativeTarget "Chord AnalyzerUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +654,7 @@
 				FFDDE0FA1BAF6C1D00A8C710 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
